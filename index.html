@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Xiaoyu Yin</title>
+    <style>
+    @import "styles.css";
+    </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+	<nav>
+    	<ul>
+            <li class="tab" target="about">About</li>
+            <li class="tab" target="skills">Skills</li>
+            <li class="tab" target="showcase">Projects</li>
+            <li class="tab" target="timeline">Timeline</li>
+            <li class="tab" target="contact">Contact</li>
+        </ul>
+    </nav>
+    
+    <div class="bg">
+    	<img src="assets/images/gear.png" class="x1"/>
+        <img src="assets/images/gear.png" class="x2"/>
+    </div>
+    
+    <article class="content">
+    	<section class="about">
+        	<table>
+        		<tr>
+                	<td>
+            			<img src="assets/images/me.png" width="100%" alt=""/>
+                	</td>
+                	<td style="padding:25px">
+                		<h1 style="font-family:mySchema2;font-size:96px">Xiaoyu Yin</h1>
+                		<h3>Software Engineer - Web Developer</h3>
+    
+                        <p>I am...
+                            <ul> 
+                            	<li>(currently) a freshman at the University of Maryland</li>
+                                <li>a tennis player, martial artist (wushu, sanshou), osu! (osu.ppy.sh) player</li>
+                                <li>well versed in the <i>noble</i> (animay) culture of Japan</li>
+                            </ul>
+                            I believe that...
+                            <ul>
+                            	<li>the future of computing will be based on an asynchronous model (like Node.js), where actions are event driven, and not run by a clock.</li>
+                                <li>wearable technology is next great step in technological development.</li>
+                            </ul>
+                        </p>
+                    </td>
+                </tr>
+        	</table>
+        </section>
+        <section class="skills">
+        	<h2>Skills</h2>
+            <ul>
+                <li>
+                	<h3>Server Programming</h3>
+                	<ul>
+                    	<li data-value="8">Java</li>
+                        <li data-value="6">PHP</li>
+                        <li data-value="3">Apache2.0</li>
+                        <li data-value="4">Node.js</li>
+                    </ul>
+                </li>
+                <li>
+                	<h3>Web Development</h3>
+                	<ul>
+                    	<li data-value="6">HTML/CSS</li>
+                        <li data-value="7">JavaScript</li>
+                        <li data-value="4">MySQL</li>
+                        <li data-value="4">Flash</li>
+                    </ul>
+                </li>
+                <li>
+                	<h3>Mobile Development</h3>
+                	<ul>
+                    	<li data-value="8">Android</li>
+                    </ul>
+                </li>
+                <li>
+                	<h3>Data Processing</h3>
+                	<ul>
+                    	<li data-value="6.5">MATLAB</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="showcase">
+        	<h2>Project Showcase</h2>
+            <div id="showcase">
+            	<div style="height:100%; width:100%;">
+                	<img src="http://s3.amazonaws.com/challengepost/photos/production/software_photos/000/161/123/datas/xlarge.png?1411308238" style="padding: 15px; float:left" />
+                    <br /><h3>HackGT - LeapSign</h3>
+                    <p style="margin:5px">ASL is the primary means of communication for those with hearing and speech impairments in the United States. While there are resources such as interpreters and translators available to ASL users, these resources are not always present, making it difficult for ASL users to communicate. LeapSign aims to bridge the communication gap between ASL users and non-users by allowing seamless and natural translation from ASL to spoken language.</p>
+                    <br /><a href="http://challengepost.com/software/leapsign-qejau"><img style="width:75px;border-radius:10px; padding:5px" src="/assets/images/challengepost.png" /></a><a href="https://github.com/xyin96/LeapSign"><img style="width:75px;border-radius:10px; padding:5px" src="/assets/images/github.png" /></a>
+                </div>
+                <div style="height:100%; width:100%;">
+                	<img src="http://s3.amazonaws.com/challengepost/photos/production/software_photos/000/164/115/datas/xlarge.png?1412101589" style="padding: 15px; float:left" />
+                    <br /><h3>HackUMBC - Marauder's Map</h3>
+                    <p style="margin:5px">We brought the Marauder's Map from Harry Potter to life in our fully-functional mobile application for Android. Solemnly swear that you are up to no good before tapping the screen and revealing the UMBC campus in full parchment fashion. Watch footsteps magically walk around campus, and find your friends' floating banners as they walk towards you. You can connect as many Android devices as you want, and they'll appear on the map and move as you walk. You might even see Peter Pettigrew walking around Meyerhoff...</p>
+                    <br /><a href="http://challengepost.com/software/marauder-s-map"><img style="width:75px;border-radius:10px; padding:5px" src="/assets/images/challengepost.png" /></a><a href="https://github.com/xyin96/HackUMBC"><img style="width:75px;border-radius:10px; padding:5px" src="/assets/images/github.png" /></a>
+                </div>
+                <div style="height:100%; width:100%;">
+                	<img src="http://www.dembridge.co.uk/wp-content/uploads/collaboration1.jpg" style="padding: 15px; float:left" />
+                    <br /><h3>HackRU - KollabKoding</h3>
+                    <p style="margin:5px">Kode Kollab is an eclipse plugin that harnesses all of the benefits of real-time collaboration in a compact user friendly experience within the Eclipse platform popular among beginner coders who need it. The plugin aims to address the common initial barrier, that even our team faced, of deciphering the complex Github system. A user of the plugin automatically processes the actions necessary to push their files to every collaborators quickly and efficiently, just by saving in Eclipse.</p>
+                    <br /><a href="http://challengepost.com/software/collabcoding-drv2l"><img style="width:75px;border-radius:10px; padding:5px" src="/assets/images/challengepost.png" /></a><a href="https://github.com/xyin96/CollabCoding"><img style="width:75px;border-radius:10px; padding:5px" src="/assets/images/github.png" /></a>
+                </div>
+            </div>
+        </section>
+        <section class="timeline">
+        	<h2>Timeline</h2>
+            <ul>
+            	<li><b>June 27, 2012 - August 20, 2012</b> <description>Intern at University of Maryland Institute of Advanced Computing</description></li>
+            	<li><b>September 2, 2014</b> <description>Enrolled in UMD, Computer Science Major</description></li>
+                <li><b>September 14, 2014</b> <description>DaemonDash Hackathon (UMD) - First Place</description></li>
+                <li><b>September 21, 2014</b> <description>HackGT - Best Use of Arm Motion Award</description></li>
+                <li><b>September 28, 2014</b> <description>HackUMBC - Fourth Place</description></li>
+                <li><b>October 12, 2014</b> <description>HackRU - Best Open Source Award</description></li>
+            </ul>
+        </section>
+        <section class="contact">
+            <div>
+            <h2>Contact Me</h2><br />
+            <b>If you like what I do, and are interested in recruiting me, contact me:</b><br />
+			<ul>
+                <li><div><a href="https://www.facebook.com/xiaoxiao13"><img src="assets/images/facebook.png" width="75px" /></a></div></li>
+            	<li><div><a href="https://github.com/xyin96"><img src="assets/images/github.png" width="75px" /></a></div></li>
+                <li><div><a href="https://www.linkedin.com/profile/view?id=307669414"><img src="assets/images/linkedin.png" width="75px" /></a></div></li>
+                <li><div><a href="http://challengepost.com/users/xyin"><img src="assets/images/challengepost.png" width="75px" /></a></div></li>
+            </ul> 
+            </div>
+            <div id="form">
+                <form class="dark-matter">
+                    <label>
+                        <span>Your Name :</span>
+                        <input id="name" type="text" name="name" placeholder="Your Full Name" required />
+                    </label>
+                    
+                    <label>
+                        <span>Your Email :</span>
+                        <input id="email" type="email" name="email" placeholder="Valid Email Address" required />
+                    </label>
+                    
+                    <label>
+                        <span>Message :</span>
+                        <textarea id="message" name="message" placeholder="Your Message to Us" required ></textarea>
+                    </label>   
+                     <label>
+                        <span>&nbsp;</span> 
+                        <input id="submit" type="button" class="button" value="Send" /> 
+                    </label>    
+                </form>
+            </div>
+        </section>
+    </article>
+</body>
+</html>
